@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport content = "width = device-width, initial-scale = 1.0, shrink-to-fit = no">
+    <meta http-equiv="x-ua-compatible">
+    <title>Title</title>
+</head>
+<body>
+<form action="process.php" method="POST">
+		<div>
+			<label>First Name</label>
+			<input type="text" name="firstName" placeholder="Enter First Name">
+		</div>
+		<br>
+		<!--The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements-->
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName">
+		</div>
+		<br>
+		<div>
+			<label>Email</label>
+			<input type="email" name="email">
+		</div>
+		<br>
+		<div>
+			<label>Message</label>
+			<textarea name="Message"></textarea> <!--For text area to write messge-->
+		</div>
+		<br>
+		<div>
+			<label>Gender</label>
+			<select name="Gender"> <!--select used for the ability to select from the following options-->
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Other">Others</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>Age</label>
+			<input type="number" name="age" value="30"> <!--30 is a default value-->
+		</div>
+		<br>
+		<div>
+			<label>Birthday</label>
+			<input type="date" name="Birthday">
+		</div>
+		<br>
+		<input type="submit" name="submit" value="Submit">
+
+		</form>
+<a href="sample.jpg" target="_blank">
+			<button>CLick Me</button>
+		</a>
+<a href="sample.jpg" target="_blank">
+			<img src="sample.jpg" alt="My sample Image" width="1500"> <!-- alt used if html cant find the image-->
+		</a>
+</body>
+</html>
